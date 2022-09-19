@@ -65,7 +65,7 @@ function generateRandomNumber(maxNumber){
 }
 
 function generateTime(){
-    let displayHour = hour
+    let displayHour = hour;
     if(hour < 24){
         hour++
     }if (hour >= 24){
